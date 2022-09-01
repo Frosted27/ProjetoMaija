@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg " style="background: linear-gradient(90deg, rgba(12,236,79,1) 5%, rgba(19,200,9,1) 30%, rgba(27,204,24,1) 69%); height:80px; font-size:23px;">
+  
+  
+  <a class="navbar-brand" style="font-size:40px; font-weight:bold; color:black; padding-left:10px;padding-right:40px; margin:10px;">Ortoclin</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent"style="padding-left:20px;">
+    
+    <ul class="navbar-nav mr-auto" >
+      <li class="nav-item active" style="font-size:30px; color:#FFFFFF; ">
+        <%=link_to "Início", home_index_path, class:"nav-link"  %>       
+      </li>
+      
+      <li class="nav-item" style="padding-left:37px; font-size:30px;" >
+        <%=link_to "Sobre Nós", home_sobre_path, class:"nav-link"  %>
+      </li>
+    </ul>
+
+    
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
